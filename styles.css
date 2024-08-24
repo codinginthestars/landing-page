@@ -10,6 +10,7 @@ html, body {
 
 #hero {
     background-color: #1f2937;
+    padding-bottom: 60px;
 }
 header {
     display: flex;
@@ -32,7 +33,78 @@ nav a {
     font-size: 20px;
     padding: 5px;
     margin: 0 0.5rem;
-    text-decoration: none;
-    border: 1px solid #f9faf8;
-    border-radius: 0.2rem;
+}
+
+#top-page {
+    display: flex;
+}
+#top-left {
+    text-align: left;
+    margin-left: 7rem;
+    padding: 10px;
+    width: 600px;
+}
+#top-left h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #f9faf8;
+    margin-bottom: 0;
+}
+#top-left p {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-top: 0;
+}
+#top-left button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 24px;
+    padding: 5px 0.8rem;
+    border-radius: 10px;
+}
+
+#castle {
+    width: 500px;
+    margin: 20px;
+}
+
+.top-section {
+    width: 50%;
+    text-align: center;
+}
+
+#display-section h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+#display-container {
+    display: flex;
+    justify-content: center;
+}
+
+.display {
+    margin: 1rem;
+    width: 200px;
+}
+
+.display img {
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.display p {
+    text-align: center;
+    margin: 0;
+}
+
+#quote-section {
+    background-color: #e5e7eb;
+}
+#quote {
+    font-size: 36px;
+    color: #1f2937;
 }
